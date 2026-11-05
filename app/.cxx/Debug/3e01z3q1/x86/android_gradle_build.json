@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/src/main/cpp/CMakeLists.txt"
+    "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
-      "/Users/yeetivity/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "C:\\Users\\jowie\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
       "-C",
-      "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/.cxx/Debug/3e01z3q1/x86",
+      "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\.cxx\\Debug\\3e01z3q1\\x86",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "/Users/yeetivity/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "C:\\Users\\jowie\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
     "-C",
-    "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/.cxx/Debug/3e01z3q1/x86",
+    "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\.cxx\\Debug\\3e01z3q1\\x86",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
@@ -21,23 +21,23 @@
       "toolchain": "toolchain",
       "abi": "x86",
       "artifactName": "JniBridge",
-      "output": "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/build/intermediates/cxx/Debug/3e01z3q1/obj/x86/libJniBridge.so",
+      "output": "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\build\\intermediates\\cxx\\Debug\\3e01z3q1\\obj\\x86\\libJniBridge.so",
       "runtimeFiles": [
-        "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/build/intermediates/cxx/Debug/3e01z3q1/obj/x86/libnback_cimpl.so"
+        "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\build\\intermediates\\cxx\\Debug\\3e01z3q1\\obj\\x86\\libnback_cimpl.so"
       ]
     },
     "nback_cimpl::@6890427a1f51a3e7e1df": {
       "toolchain": "toolchain",
       "abi": "x86",
       "artifactName": "nback_cimpl",
-      "output": "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/build/intermediates/cxx/Debug/3e01z3q1/obj/x86/libnback_cimpl.so",
+      "output": "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\build\\intermediates\\cxx\\Debug\\3e01z3q1\\obj\\x86\\libnback_cimpl.so",
       "runtimeFiles": []
     }
   },
   "toolchains": {
     "toolchain": {
-      "cCompilerExecutable": "/Users/yeetivity/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
-      "cppCompilerExecutable": "/Users/yeetivity/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+      "cCompilerExecutable": "C:\\Users\\jowie\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\jowie\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
     }
   },
   "cFileExtensions": [

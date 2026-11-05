@@ -1,34 +1,34 @@
 {
   "buildFiles": [
-    "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/src/main/cpp/CMakeLists.txt"
+    "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
-      "/Users/yeetivity/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "C:\\Users\\jowie\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
       "-C",
-      "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/.cxx/Debug/3e01z3q1/x86",
+      "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\.cxx\\Debug\\3e01z3q1\\x86",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "/Users/yeetivity/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "C:\\Users\\jowie\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
     "-C",
-    "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/.cxx/Debug/3e01z3q1/x86",
+    "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\.cxx\\Debug\\3e01z3q1\\x86",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
     "nback_cimpl::@6890427a1f51a3e7e1df": {
       "artifactName": "nback_cimpl",
       "abi": "x86",
-      "output": "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/build/intermediates/cxx/Debug/3e01z3q1/obj/x86/libnback_cimpl.so",
+      "output": "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\build\\intermediates\\cxx\\Debug\\3e01z3q1\\obj\\x86\\libnback_cimpl.so",
       "runtimeFiles": []
     },
     "JniBridge::@6890427a1f51a3e7e1df": {
       "artifactName": "JniBridge",
       "abi": "x86",
-      "output": "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/build/intermediates/cxx/Debug/3e01z3q1/obj/x86/libJniBridge.so",
+      "output": "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\build\\intermediates\\cxx\\Debug\\3e01z3q1\\obj\\x86\\libJniBridge.so",
       "runtimeFiles": [
-        "/Users/yeetivity/AndroidStudioProjects/NBack_CImpl/app/build/intermediates/cxx/Debug/3e01z3q1/obj/x86/libnback_cimpl.so"
+        "C:\\Users\\jowie\\AndroidStudioProjects\\NBackGame\\app\\build\\intermediates\\cxx\\Debug\\3e01z3q1\\obj\\x86\\libnback_cimpl.so"
       ]
     }
   }
