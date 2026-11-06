@@ -27,7 +27,9 @@ class NBackHelperTest {
     private val combinationsToTest = listOf(2, 4, 9)
     private val seedsToTest = 0 until 20
 
-    /** Runs [check] once for every combination of the settings above. */
+    /** Runs [check] once for every combination of the settings above.
+     * generateNBackString
+     * */
     private fun forEveryTestSetting(
         check: (sequence: IntArray, size: Int, combinations: Int, percentMatch: Int, nBack: Int) -> Unit
     ) {
@@ -64,6 +66,9 @@ class NBackHelperTest {
 
     // ---------- 2. Match-rate enforcement ----------
 
+    /**
+     * calculateTargetMatchCount
+     */
     @Test
     fun generatedSequence_containsExactlyTheTargetNumberOfMatches() {
         forEveryTestSetting { sequence, size, _, percentMatch, nBack ->
@@ -95,6 +100,9 @@ class NBackHelperTest {
 
     // ---------- 3. First-n guarantee ----------
 
+    /**
+     * eligibleMatchPositions
+     */
     @Test
     fun firstNEvents_areNeverMatches() {
         forEveryTestSetting { sequence, _, _, _, nBack ->
@@ -162,6 +170,10 @@ class NBackHelperTest {
         }
         assertEquals(4, score) // exactly the four correct presses
     }
+
+    /**
+     * checkMatch
+     */
 
     @Test
     fun scoreEqualsTheNumberOfCorrectPresses_whenPressingOnEveryAllowedEvent() {
